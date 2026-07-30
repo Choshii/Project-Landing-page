@@ -3,17 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page for TOP</title>
+    <title>Landing Page - The Odin Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="header">
-    <div class="logo">Header logo</div>
-     <div class="links">
-      <a href="https://github.com/Choshii">Github</a>
-      <a href="https://www.youtube.com/">YouTube</a>
-      <a href="https://www.google.com/?hl=pt_BR">Google</a>
+
+    <!-- SEÇÃO ESCURA (HEADER + HERO) -->
+    <div class="dark-container">
+        <header class="header">
+            <div class="logo">Header Logo</div>
+            <nav class="nav-links">
+                <a href="#">header link one</a>
+                <a href="#">header link two</a>
+                <a href="#">header link three</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="btn-blue">Sign up</button>
+            </div>
+            <div class="hero-image">
+                this is a placeholder for an image
+            </div>
+        </section>
     </div>
- </div>
+
+    <!-- SEÇÃO DE INFORMAÇÕES (CARDS) -->
+    <section class="info-section">
+        <h2>Some random information.</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="card-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="card-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="card-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DO DEPOIMENTO (QUOTE) -->
+    <section class="quote-section">
+        <div class="quote-container">
+            <blockquote class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </blockquote>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CHAMADA PARA AÇÃO (CTA) -->
+    <section class="cta-section">
+        <div class="cta-banner">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="btn-outline">Sign up</button>
+        </div>
+    </section>
+
+    <!-- RODAPÉ (FOOTER) -->
+    <footer class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+
 </body>
 </html>
